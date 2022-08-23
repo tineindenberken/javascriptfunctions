@@ -14,7 +14,13 @@ console.log(greeting);
 // Schrijf een functie genaamd getSchool, die de string "Novi Hogeschool" teruggeeft
 // ---- Verwachte uitkomst bij het aanroepen van de functie: "Novi Hogeschool"
 
+function getSchool () {
+  return "Novi Hogeschool";
+}
 
+const school = getSchool();
+
+console.log(getSchool);
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd compliment, die jou een complimentje geeft!

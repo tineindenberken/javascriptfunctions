@@ -11,13 +11,24 @@ function add(a, b) {
 const result = add(1, 4);
 console.log(result);
 
+const resulty = add (2, 5);
+console.log(resulty);
+
 /* Opdracht 1 */
 // Schrijf een functie genaamd greeter, die een naam verwacht en een groet teruggeeft
 // ---- Verwachte uitkomsten:
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
 
+function greeter (name) {
+  return "Hoi " + name;
+}
 
+const greet = greeter('Jan');
+console.log(greet);
+
+const greety = greeter('Kees');
+console.log(greety)
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd minutesToSeconds, die een hoeveelheid minuten verwacht (als een getal) en teruggeeft hoeveel seconden dat zijn.
@@ -26,7 +37,12 @@ console.log(result);
 // minutesToSeconds(3) geeft 180
 // minutesToSeconds(23) geeft 1380
 
+function minutesToSeconds (minutes) {
+  return minutes * 60
+}
 
+const numberOfSeconds = minutesToSeconds(3);
+console.log(numberOfSeconds);
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd merge, die twee strings verwacht en deze aan elkaar geplakt teruggeeft.
@@ -61,5 +77,4 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // createDetailString({ firstName: 'Jan', lastName: 'Jansen', profession: 'docent'}) geeft "Het beroep vam Jan Jansen is docent."
 // createDetailString({ firstName: 'Kees', lastName: 'Klaasen', profession: 'brandweerman'}) geeft "Het beroep vam Kees Klaasen is brandweerman."
-
 
